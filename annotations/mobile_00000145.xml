@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mobiles</folder>
+	<filename>mobile_00000145.jpg</filename>
+	<path>/home/aditya/tensorflow_api_object_detection/data/mobiles/mobile_00000145.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>660</width>
+		<height>440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mobile</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>353</xmin>
+			<ymin>4</ymin>
+			<xmax>555</xmax>
+			<ymax>430</ymax>
+		</bndbox>
+	</object>
+</annotation>
