@@ -116,7 +116,7 @@ Open the copied file in an editor. Edit the following lines as per the use case.
 
 
 ### Step 10 (Creating a pbtxt file)
-* Tensorflow requires us to map a class to a label. So, inside training directory, add object-detection.pbtxt:
+* Tensorflow requires us to map a class to a label. So, inside training directory, create a file `object-detection.pbtxt` and add the following content in it:
 ```
 item {
   id: 1
@@ -128,7 +128,7 @@ item {
 ```
 python3 ~/models/research/object_detection/train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_mobile.config
 ```
-* --train_dir is the directory where you have your training data in TF Record format. You can check for it in the config.yml file
+* --train_dir is the directory where your trained model checkpoints will be saved.
 * --pipeline_config_path is for the model used for training.
 
 
