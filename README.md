@@ -1,6 +1,5 @@
 ## TensorFlow Object Detection API
 
-**Note :** Here, the project directory is called `Object_Detection`
 
 ### Requirements
 * Linux Machine
